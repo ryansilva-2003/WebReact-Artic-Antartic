@@ -1,4 +1,5 @@
 import './index.css'
+import Sobre from './sections/Sobre'
 
 function Home (){
 
@@ -9,18 +10,20 @@ function Home (){
                     <img src="/icon.webp" alt="logo" />
                 </div>
 
-                <div className="btnHeader">
-                    <button>Home</button>
-                    <button>Sobre</button>
-                    <button>Ártico</button>
-                    <button>Antartida</button>
-                    <button>Contato</button>
-                </div>
+                <nav className="btnHeader">
+                    <a href='#home'>Home</a>
+                    <a href='#sobre'>Sobre</a>
+                    <a href='#artico'>Ártico</a>
+                    <a href='#antartida'>Antartida</a>
+                    <a href='#contato'>Contato</a>
+                </nav>
         </header>
 
-                <div className="imgWall">
-                    <img src="./imgWall.jpg" alt='img' />
-                </div>
+                <section id="home" className="imgWall">
+                    <img src="/imgWall.jpg" alt='img' />
+                </section>
+
+                <Sobre />
     </div>
     )
 }

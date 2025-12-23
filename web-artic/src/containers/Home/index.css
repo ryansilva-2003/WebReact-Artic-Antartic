@@ -8,6 +8,14 @@ body {
     background-color: rgb(80, 127, 168);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    scroll-margin-top: 120px;
+}
+
 
 .header {
     position: fixed;
@@ -25,15 +33,6 @@ body {
 .btnHeader{
     display: flex;
     gap: 70px;
-}
-
-.header button {
-    cursor: pointer;
-    font-size: 1.1rem;
-    background-color: rgb(80, 127, 168);
-    border: none;
-    box-shadow: none;
-    margin-top: 20px;
 }
 
 .logo img{
