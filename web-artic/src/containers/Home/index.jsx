@@ -6,9 +6,6 @@ function Home (){
     return (
     <div>
         <header className="header">
-                <div className="logo">
-                    <img src="/icon.webp" alt="logo" />
-                </div>
 
                 <nav className="btnHeader">
                     <a href='#home'>Home</a>
@@ -20,7 +17,7 @@ function Home (){
         </header>
 
                 <section id="home" className="imgWall">
-                    <img src="/imgWall.jpg" alt='img' />
+                    <img src="/imgWall.jpg" alt='' />
                 </section>
 
                 <Sobre />
