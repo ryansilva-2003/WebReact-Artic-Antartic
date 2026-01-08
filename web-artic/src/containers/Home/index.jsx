@@ -1,5 +1,6 @@
 import './index.css'
 import Sobre from './sections/Sobre'
+import Artico from './sections/Artico'
 
 function Home (){
 
@@ -10,7 +11,7 @@ function Home (){
                 <nav className="btnHeader">
                     <a href='#home'>Home</a>
                     <a href='#sobre'>Sobre</a>
-                    <a href='#artico'>Ártico</a>
+                    <a href='#artico'>Artico</a>
                     <a href='#antartida'>Antartida</a>
                     <a href='#contato'>Contato</a>
                 </nav>
@@ -21,6 +22,7 @@ function Home (){
                 </section>
 
                 <Sobre />
+                <Artico />
     </div>
     )
 }
