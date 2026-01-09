@@ -8,8 +8,8 @@
 }
 
 .texto p {
-    position: absolute;
     margin-top: 20px;
-    margin-left: 50px;
+    margin-left: 80px;
+    margin-right: 80px;
     font-size: 1.7rem;
 }

@@ -27,6 +27,14 @@ header {
     margin-top: 20px;
 }
 
+@font-face {
+  font-family: 'MinhaFonte';
+  src: url('/fonts/fontArtico.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 .btnHeader{
     position: absolute;
     display: flex;
