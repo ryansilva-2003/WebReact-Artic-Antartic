@@ -1,7 +1,13 @@
+.artico {
+  position: relative;
+  background-color: rgba(202, 200, 200, 0.815);
+  padding-top: 50px;
+}
+
 .container {
   margin-left: 150px;
   margin-right: 150px;
-  margin-top: 200px;
+  margin-top: 100px;
 }
 
 .title {
@@ -25,6 +31,8 @@
   font-size: 2rem;
   max-width: 600px;
   margin-bottom: 100px;
+  border: 1px solid white;
+  background-color: rgba(255, 255, 255, 0.493);
 }
 
 .textArea {
@@ -52,18 +60,87 @@
 .leia-mais {
   display: flex;
   justify-content: center;
-  margin-left: 30px;
+  margin-top: 20px;
   border: 1px solid blue;
   border-radius: 50px;
   max-width: 150px;
   padding: 20px;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   color: white;
   background-color: #4052D6;
   text-decoration: none;
 }
 
 .leia-mais:hover{
-  background-color: aquamarine;
-  color: black;
+  background-color: #5966cf;
+  color: white;
 }
+
+.title2 {
+  margin-top: 80px;
+  font-family: 'fonte2', sans-serif;
+  font-weight: normal;
+  font-size: 3rem;
+}
+
+.slider {
+  overflow: hidden;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.track {
+  display: flex;
+  gap: 50px;
+  width: max-content;
+  animation: scroll 30s linear infinite;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.track figure {
+  background-color: #999ba7;
+  padding: 10px;
+}
+
+.track figcaption {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  font-size: 1.7rem;
+}
+
+.mapa-artico {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 150px;
+  border: 1px solid rgb(136, 138, 133);
+  background-color: rgb(138, 133, 133);
+  padding: 50px;
+  border-radius: 50px;
+  gap: 20px;
+}
+
+.mapa-artico h1 {
+  margin-bottom: 10px;
+}
+
+.mapa-artico h2{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.mapa-artico img {
+  width: 600px;
+  border-radius: 30px;
+}
+

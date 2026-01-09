@@ -8,14 +8,6 @@ body {
     background-color: rgb(80, 127, 168);
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
-section {
-    scroll-margin-top: 120px;
-}
-
 header {
     position: fixed;
     top: 0;
@@ -29,9 +21,16 @@ header {
 
 @font-face {
   font-family: 'MinhaFonte';
-  src: url('/fonts/fontArtico.ttf') format('truetype');
+  src: url('/fonts/fontTitle.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fonte2';
+    src: url('/fonts/fontH2.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 
