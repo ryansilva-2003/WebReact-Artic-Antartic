@@ -90,12 +90,12 @@ function Artico() {
                         
                         <h2>Quando ocorre?</h2>
 
-                        Sendo assim, o melhor momento para observar as auroras é no inverno das regiões polares, quando os dias são mais curtos, e as noites são mais longas. No Hemisfério Norte esse período vai entre o final de setembro até meados de março. A época de maior intensidade é no período da Noite Polar, quando o sol quase não chega a nascer, entre o final de novembro até janeiro. Porém é a época das grandes nevascas, o que pode frustrar o viajante. 
+                        <p>Sendo assim, o melhor momento para observar as auroras é no inverno das regiões polares, quando os dias são mais curtos, e as noites são mais longas. No Hemisfério Norte esse período vai entre o final de setembro até meados de março. A época de maior intensidade é no período da Noite Polar, quando o sol quase não chega a nascer, entre o final de novembro até janeiro. Porém é a época das grandes nevascas, o que pode frustrar o viajante.</p>
                         
                         <h2>Quais os melhores destinos para curtir a aurora boreal?</h2>
 
                         Os melhores destinos para curtir a aurora boreal estão próximos ao Círculo Polar Ártico, onde a atividade solar é mais intensa e o céu é mais escuro. Lugares como Tromsø, na Noruega, Abisko, na Suécia, a Lapônia na Finlândia, a Islândia, Yellowknife no Canadá e Fairbanks no Alasca estão entre os mais indicados </figcaption>
-                        
+
                     <img src='/artico.jpg' alt='artico' />
                 </figure>
 

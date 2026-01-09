@@ -13,9 +13,10 @@
 .title {
   font-family: 'MinhaFonte', sans-serif;
   font-weight: normal;
-  color: blue;
-  font-size: 6rem;
+  color: #0284C7;
+  font-size: 7rem;
   margin-left: 30px;
+  margin-bottom: 100px;
 }
 
 .info {
@@ -124,23 +125,40 @@
   justify-content: flex-end;
   margin-top: 150px;
   border: 1px solid rgb(136, 138, 133);
-  background-color: rgb(138, 133, 133);
+  color: #E5E7EB;
   padding: 50px;
   border-radius: 50px;
   gap: 20px;
+
+  background: linear-gradient(
+  to bottom,
+  #a8bdd3,
+  #4aaa9a
+);
+}
+
+.mapa-artico figcaption {
+  margin-right: 50px;
+  font-size: 1.2rem;
 }
 
 .mapa-artico h1 {
   margin-bottom: 10px;
+  text-decoration: underline;
+  font-size: 2.2rem;
+  color: #075985;
 }
 
 .mapa-artico h2{
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 5px;
 }
 
 .mapa-artico img {
-  width: 600px;
+  width: 800px;
   border-radius: 30px;
 }
 
+.mapa-artico p {
+  color: #1E293B;
+}
