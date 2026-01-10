@@ -58,3 +58,26 @@
   height: auto;
   animation: spin 100s linear infinite;
 }
+
+.mapa-antartida {
+    display: flex;
+    border: 1px solid white;
+    background-color: #4052D6;
+    padding: 20px;
+    border-radius: 50px;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.mapa-antartida img {
+    border-radius: 30px;
+}
+
+.mapa-antartida h1 {
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+.mapa-antartida h2 {
+    margin-bottom: 10px;
+}

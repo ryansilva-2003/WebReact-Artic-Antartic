@@ -20,7 +20,7 @@ function Artico() {
 
                 </article>
 
-                <h2 className='title2'>Animais do ártico</h2>
+                <h2 className='title'>Animais do ártico</h2>
 
                 <div className='slider'>
                     <div className='track'>

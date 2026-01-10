@@ -18,6 +18,52 @@ function Antartida() {
                     </a></p>
 
                 </article>
+
+                <h2 className='title'>Animais da Antártida</h2>
+
+                <div className='slider'>
+                    <div className='track'>
+                <figure>
+                    <img src='/pinguim.jpg' alt='pinguim' />
+                    <figcaption>Pinguim</figcaption>
+                </figure>
+
+                <figure>
+                    <img src='/foca.jpg' alt='foca' />
+                    <figcaption>Foca Leopardo</figcaption>
+                </figure>
+
+                <figure>
+                    <img src='elefante-marinho.jpg' alt='elefante' />
+                    <figcaption>Elefante-Marinho</figcaption>
+                </figure>
+
+                <figure>
+                    <img src='adelia.jpg' alt='adelia' />
+                    <figcaption>Pinguim de Adélia</figcaption>
+                </figure>
+
+                <figure>
+                    <img src='lula-gigante.jpg' alt='lula' />
+                    <figcaption>Lula-Gigante</figcaption>
+                </figure>
+
+                </div>
+                </div>
+
+                <figure className='mapa-antartida'>
+                    <img src='blood.webp' alt='blood' />
+
+                    <figcaption><h1>Blood falls</h1><h2>O que é?</h2><p>Blood Falls (Cataratas de Sangue) é um fenômeno geológico na Antártida, onde uma água avermelhada escorre da geleira Taylor para o Lago Bonney, devido à presença de óxido de ferro (ferrugem) em uma salmoura subterrânea isolada que reage com o oxigênio ao emergir, formando um espetáculo de cor e um ecossistema extremo com microrganismos que sobrevivem sem luz solar.</p>
+                    
+                    <h2>Quando ocorre?</h2>
+                    <p>A Blood Falls não depende de estação do ano para “aparecer” – a água vermelha escorre praticamente o ano todo – mas o fenômeno fica mais visível no verão antártico (aproximadamente novembro a fevereiro), quando a temperatura é ligeiramente mais alta e o gelo superficial derrete o suficiente para permitir que a água alcance a superfície.</p>
+
+                    <h2>Por que esse fenômeno é exclusivo da Antártica?</h2>
+                    <p>A Blood Falls é exclusiva da Antártica porque a água rica em ferro fica presa sob o gelo há milhões de anos. Sua alta salinidade impede que congele, e ao entrar em contato com o ar, o ferro oxida, deixando a água vermelha. Essa combinação de gelo, sal e ferro não ocorre em nenhum outro lugar.</p>
+                    </figcaption>
+                </figure>
+
             </div>
         </section>
     )
