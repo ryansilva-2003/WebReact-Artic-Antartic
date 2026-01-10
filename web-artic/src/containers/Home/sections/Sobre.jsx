@@ -3,7 +3,7 @@ import './Sobre.css'
 function Sobre() {
     return (
         <section className="sobre">
-            <div className='titulo'>
+            <div className='tituloSobre'>
                 <h1>Sobre o projeto</h1>
             </div>
 

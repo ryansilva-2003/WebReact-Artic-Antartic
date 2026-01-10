@@ -1,6 +1,7 @@
 import './index.css'
 import Sobre from './sections/Sobre'
 import Artico from './sections/Artico'
+import Antartida from './sections/Antartida'
 
 function Home (){
 
@@ -23,6 +24,7 @@ function Home (){
 
                 <Sobre />
                 <Artico />
+                <Antartida />
     </div>
     )
 }
