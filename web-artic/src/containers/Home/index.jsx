@@ -2,6 +2,7 @@ import './index.css'
 import Sobre from './sections/Sobre'
 import Artico from './sections/Artico'
 import Antartida from './sections/Antartida'
+import Footer from './sections/Footer'
 
 function Home (){
 
@@ -18,13 +19,14 @@ function Home (){
                 </nav>
         </header>
 
-                <section id="home" className="imgWall">
-                    <img src="/imgWall.jpg" alt='' />
+                <section id="home" className="parallax-1">
+                    <h1>Ártico</h1><h1 className='h1-2'>Antártida</h1>
                 </section>
 
                 <Sobre />
                 <Artico />
                 <Antartida />
+                <Footer />
     </div>
     )
 }

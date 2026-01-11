@@ -1,7 +1,21 @@
+.parallax-2 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  overflow: hidden;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url('/artico.jpg');
+}
+
 .artico {
   position: relative;
   background-color: rgba(202, 200, 200, 0.815);
   padding-top: 50px;
+  padding-bottom: 150px;
 }
 
 .container {
@@ -122,6 +136,7 @@
   display: flex;
   justify-content: flex-end;
   margin-top: 150px;
+  margin-bottom: 50px;
   border: 1px solid rgb(136, 138, 133);
   color: #E5E7EB;
   padding: 50px;

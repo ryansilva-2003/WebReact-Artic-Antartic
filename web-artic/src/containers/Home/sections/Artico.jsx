@@ -2,6 +2,10 @@ import './Artico.css'
 
 function Artico() {
     return (
+        <>
+
+        <section className='parallax-2'></section>
+
         <section className='artico'>
             <div className='container'>
                 <div className='tituloArtico'>Ártico</div>
@@ -15,7 +19,7 @@ function Artico() {
                     </p>
 
                     <figure className='imageArtic'>
-                    <img src='/Artico.png' alt='' />
+                    <img src='/mapa-artico.png' alt='' />
                     </figure>
 
                 </article>
@@ -46,7 +50,7 @@ function Artico() {
                 </figure>
 
                 <figure className='coruja'>
-                    <img src='/corujga.webp' alt='coruja' />
+                    <img src='/coruja.webp' alt='coruja' />
                     <figcaption>Coruja</figcaption>
                 </figure>
                 
@@ -73,7 +77,7 @@ function Artico() {
                 </figure>
 
                 <figure className='coruja'>
-                    <img src='/corujga.webp' alt='coruja' />
+                    <img src='/coruja.webp' alt='coruja' />
                     <figcaption>Coruja</figcaption>
                 </figure>
 
@@ -96,11 +100,12 @@ function Artico() {
 
                         Os melhores destinos para curtir a aurora boreal estão próximos ao Círculo Polar Ártico, onde a atividade solar é mais intensa e o céu é mais escuro. Lugares como Tromsø, na Noruega, Abisko, na Suécia, a Lapônia na Finlândia, a Islândia, Yellowknife no Canadá e Fairbanks no Alasca estão entre os mais indicados </figcaption>
 
-                    <img src='/artico.jpg' alt='artico' />
+                    <img src='/aurora.jpg' alt='artico' />
                 </figure>
 
             </div>
         </section>
+        </>
     )
 }
 

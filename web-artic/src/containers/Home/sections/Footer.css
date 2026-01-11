@@ -1,0 +1,10 @@
+.footer{
+    color:white;
+    margin-top: 20px;
+}
+
+.contatos {
+    border: 1px solid black;
+    background-color: black;
+    padding: 20px;
+}
